@@ -1,0 +1,165 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #00000000;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: rgba(0, 123, 255, 0.9);
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.h1-header{
+    color: #000000;
+}
+
+.gundar{
+    position: fixed;
+    width: 20%;
+    height: auto;
+    padding-left: 11%;
+    text-align: center;
+}
+
+.atom{
+    width: 80%;
+    height: 80%;
+    align-items: center;
+}
+
+main {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: rgba(0, 123, 255, 0.9);
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+form label, form input {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+.materi-content{
+    text-align: justify;
+}
+
+/* Styling khusus untuk halaman Quiz */
+#quiz-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#quiz-form .question {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+#quiz-form .question:last-child {
+    border-bottom: none;
+}
+
+#quiz-form .question p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+#quiz-form .options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#quiz-form .options label {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#quiz-form .options input[type="radio"] {
+    margin-right: 10px;
+    margin-top: 0;
+}
+
+#quiz-form button[type="submit"] {
+    margin-top: 20px;
+    background-color: #28a745;
+}
+
+#quiz-form button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+#back-to-materi {
+    margin-top: 20px;
+    background-color: #6c757d;
+}
+
+#back-to-materi:hover {
+    background-color: #5a6268;
+}
+
+fotter {
+    background-color: rgba(0, 123, 255, 0.9);
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
